@@ -1,0 +1,108 @@
+body{
+margin: 0px;
+padding: 0px;
+background:  #F3F5FC;
+}
+.container{
+    margin: auto;
+    width: 980px;
+    height: 650px;
+    padding: 5px; 
+    background: b#F3F5FC;
+}
+.logo{
+    width:  100%;
+    float: left;
+    border-radius: 24px;
+    background: #F3F5FC;
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 65%;
+    border-radius: 24px;
+    background: #F3F5FC;
+}
+.right{
+    float: right;
+    width: 30%;
+    height: 87%;
+    border-radius: 24px;
+    background: #FFFFFF;
+}
+.left-button{
+    float: left;
+    width: 70%;
+    height: 22%;
+    border-radius: 23px;
+    background: p#F3F5FC;
+}
+.logoImg{
+margin-top: 1%;
+margin-left: 1%;
+float: inherit; /*deixa testo lado da logo */
+}
+.tittle{
+float: inherit;
+margin-left: 20%;
+}
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+}
+#imgDireita{
+    margin: 2%;
+    margin-top: 5%;
+    width: 88%;
+    height: auto;
+
+}
+#texto{
+    margin-left: 7%;
+    margin-right: 7%;
+} 
+#texto2{
+    float:left ;
+    margin: 2%;
+    color: #0A3871;
+    width: 85%;
+    height: auto;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+#btn-encriptar{
+    padding: 20px;
+    width: 30%;
+    height: 50%;
+    border-radius: 23px;
+    margin: 5%;
+    background: #0A3871;
+}
+#btn-desencriptar{
+    padding: 20px;
+    width: 30%;
+    height: 50%;
+    border-radius: 23px;
+    margin: 5%;
+    background: #D8DFE8;
+}
+#copiar{
+    margin-left: 21%;
+    margin-top: 89%;
+    padding: 8%;
+    width: 60%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24PX;
+    display: none;
+   
+}

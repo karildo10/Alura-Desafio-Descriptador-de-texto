@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alura Challenges - Semana 1!</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="logo">
+    <img class="logoImg" src="img/logo.png">
+    <h1 class="tittle">Criptografador de Mensagens - Alura</h1>
+</div>
+
+<div class="left">
+<input class="text-input" id="inputTexto" type="text" placeholder="Digite seu texto aqui..."/>
+</div>
+
+<div class="right">
+<img src="img/boneco.jpg" id="imgDireita">
+<h1 id="texto">Nunhuma mensagem foi encontrada</h1>
+<textarea id="texto2" name="name" rows="8" cols="80">Digite um Texto que você deseja criptografar ou descriptografar.</textarea>
+<button id="copiar" onclick="copiar()">Copiar</button>
+</div>
+<div class="left-button">
+   <p>Apenas letras minúsculo e sem acento</p>
+   <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+   <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+</div>
+
+</div>
+</body>
+
+</html>
